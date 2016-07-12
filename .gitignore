@@ -42,6 +42,7 @@ jspm_packages
 
 ### Bower ###
 bower_components
+public
 .bower-cache
 .bower-registry
 .bower-tmp

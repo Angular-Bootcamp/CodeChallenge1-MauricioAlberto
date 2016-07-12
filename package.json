@@ -1,5 +1,5 @@
 {
-  "name": "pokedex-1",
+  "name": "codechallenge1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,9 +16,7 @@
     "url": "https://github.com/Angular-Bootcamp/CodeChallenge1-MauricioAlberto/issues"
   },
   "homepage": "https://github.com/Angular-Bootcamp/CodeChallenge1-MauricioAlberto#readme",
-  "dependencies": {
-    "bower": "^1.7.9"
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1"
   }

@@ -1,0 +1,20 @@
+{
+  "name": "codechallenge1",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  },
+  "main": "index.js",
+  "authors": [
+    "Mauricio"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Angular-Bootcamp/CodeChallenge1-MauricioAlberto",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
