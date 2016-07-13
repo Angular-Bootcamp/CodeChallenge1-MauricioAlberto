@@ -30,6 +30,11 @@
 @steel:     #999999;
 @fairy:     #966DAB;
 
+//== Img size
+//##
+@evolution-thumbnail-size: 82px;
+@icon-size: 20px;
+
 //
 //== Colors
 //## Gray and brand colors for use across Bootstrap.
@@ -75,16 +80,16 @@
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          7px;
-@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
-@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+@font-size-base:          10px;
+@font-size-large:         ceil((@font-size-base * 1.25));
+@font-size-small:         ceil((@font-size-base * 0.85));
 
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
-@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
-@font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h1:            floor((@font-size-base * 2));
+@font-size-h2:            floor((@font-size-base * 1.7));
+@font-size-h3:            ceil((@font-size-base * 1.7));
+@font-size-h4:            ceil((@font-size-base * 1.25));
 @font-size-h5:            @font-size-base;
-@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+@font-size-h6:            ceil((@font-size-base * 0.85));
 
 //** Unit-less `line-height` for use in components like buttons.
 @line-height-base:        1.428571429; // 20/14
@@ -730,7 +735,7 @@
 //##
 
 @panel-bg:                    #fff;
-@panel-body-padding:          15px;
+@panel-body-padding:          0px;
 @panel-heading-padding:       6px 15px;
 @panel-footer-padding:        @panel-heading-padding;
 @panel-border-radius:         0px;
