@@ -7,13 +7,13 @@ var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 
 var PATH = {
-  less: './application/src/less/theme.less',
+  less: './application/src/less',
   css: './application/dist/css',
-  baseDir:  './application'
+  baseDir: './application'
 };
 
 gulp.task('less', function () {
-  return gulp.src(PATH.less)
+  return gulp.src(PATH.less + "/theme.less")
     .pipe(less())
     .pipe(gulp.dest(PATH.css))
 });
@@ -29,7 +29,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(PATH.less, ['less']);
+  gulp.watch(PATH.less + "/*.less", ['less']);
   gulp.watch(PATH.css + "/*.css").on('change', reload);
   gulp.watch(PATH.baseDir + "/*.html").on('change', reload);
 });
