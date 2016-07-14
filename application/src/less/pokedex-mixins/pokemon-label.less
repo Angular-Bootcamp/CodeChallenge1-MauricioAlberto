@@ -1,0 +1,12 @@
+// Labels style for pokemon type
+
+.pokemon-variant(@variant) {
+  @color: "pokemon-@{variant}-color";
+  &:before {
+    content: "@{variant}";
+    text-transform: capitalize;
+    color: white;
+  }
+  background-color: @@color;
+  border-color: @@color;
+}
