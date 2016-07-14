@@ -3,13 +3,10 @@
 
 ## Information
 Pokedex application in javascript
-
-## Dependencies
-
 <table>
 
 <tr>
-<td>Description</td>
+<td>Name</td>
 <td>Version</td>
 </tr>
 
@@ -38,3 +35,7 @@ npm run bower
 npm start
 
 ```
+
+## Demo
+
+![Demo](screenshots/1.png)
