@@ -29,7 +29,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(PATH.less + "/*.less", ['less']);
+  gulp.watch(PATH.less + "/**/*.less", ['less']);
   gulp.watch(PATH.css + "/*.css").on('change', reload);
   gulp.watch(PATH.baseDir + "/*.html").on('change', reload);
 });
