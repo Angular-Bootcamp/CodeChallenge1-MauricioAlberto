@@ -123,6 +123,36 @@ h6,
 p {
   margin: 0px 0px 3px;
 }
+.label:empty {
+  display: initial;
+}
+.grass {
+  background-color: #97D077;
+  border-color: #97D077;
+}
+.grass:before {
+  content: "grass";
+  text-transform: capitalize;
+  color: white;
+}
+.poison {
+  background-color: #A680B8;
+  border-color: #A680B8;
+}
+.poison:before {
+  content: "poison";
+  text-transform: capitalize;
+  color: white;
+}
+.bug {
+  background-color: #67AB9F;
+  border-color: #67AB9F;
+}
+.bug:before {
+  content: "bug";
+  text-transform: capitalize;
+  color: white;
+}
 .btn-default,
 .btn-primary,
 .btn-success,
